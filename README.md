@@ -1,5 +1,5 @@
 # Introduction
-This repo contain a RPG game with Jammo Robot
+This repo contain a RPG game with Jammo Robot on unity for ML with HuggingFace.
 
 >[!NOTE]
 >More introduction on http://gofile.me/773h8/3PXcErCES
@@ -28,6 +28,9 @@ To clone this repo, use this command :
 #### Download assets
 [Environment 3DModel](http://gofile.me/773h8/Y2wRIsbiG)
 [Sentence Similarity model](http://gofile.me/773h8/5aZTBdf73)
+
+>[!NOTE]
+>Move this two folders into the Sentis-unity/Assets folder.
 
 #### Open on the platform
 
