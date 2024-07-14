@@ -54,11 +54,11 @@ To open on Unity :
 There was a tourist who was lost in the mountains, you play a rescue dog, you should help people to find their friend...
 
 #### Control
-WASD to control direction
-space to jump
-R to stand up
-E to take something
-F to give something
+WASD to control direction  
+space to jump  
+R to stand up  
+E to take something  
+F to give something  
 
 # Resources 
 
