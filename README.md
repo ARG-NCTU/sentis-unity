@@ -48,6 +48,17 @@ To open on Unity :
 2. Window > Package Manager > + > "URL" > https://github.com/huggingface/sharp-transformers.git
 
 
+# How to play
+
+#### Game story
+There was a tourist who was lost in the mountains, you play a rescue dog, you should help people to find their friend...
+
+#### Control
+WASD to control direction
+space to jump
+R to stand up
+E to take something
+F to give something
 
 # Resources 
 
