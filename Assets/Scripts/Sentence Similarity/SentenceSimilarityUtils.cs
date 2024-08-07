@@ -321,6 +321,7 @@ namespace SentenceSimilarityUtils
         static List<List<int>> AddTokenTypes(List<List<int>> inputIds)
         {
             return inputIds.Select(innerList => innerList.Select(_ => 0).ToList()).ToList();
+
         }
     }
 }

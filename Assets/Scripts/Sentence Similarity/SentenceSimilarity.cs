@@ -94,6 +94,7 @@ public class SentenceSimilarity : MonoBehaviour
     }
 
 
+
     /// <summary>
     /// Get the most similar action and its index given the player input
     /// </summary>
@@ -108,12 +109,6 @@ public class SentenceSimilarity : MonoBehaviour
 
         InputSentences.Add(inputSentence);
         ComparisonSentences = comparisonSentences.ToList();
-
-        // Debug.Log("Comparison Sentences:");
-        // foreach (string sentence in ComparisonSentences)
-        // {
-        //     Debug.Log(sentence);
-        // }
 
         // Step 2: Encode the input sentences and comparison sentences
         TensorFloat NormEmbedSentences = Encode(InputSentences, worker, ops);
@@ -130,14 +125,6 @@ public class SentenceSimilarity : MonoBehaviour
         int scoreIndexInt = scoreIndex[0];
         scores.MakeReadable();
         float score = scores[scoreIndexInt];
-
-
-        // Log each sentence's similarity score and index
-        // Debug.Log("Input Sentence: " + inputSentence);
-        // for (int i = 0; i < 6; i++)
-        // {
-        //     Debug.Log("Similarity Score: " + scores[i] + " Index: " + i);
-        // }
 
         // Return the similarity score and the action index
         return Tuple.Create(scoreIndexInt, score);

@@ -69,8 +69,6 @@ public class JammoBehavior : MonoBehaviour
     public float maxScore;
     public int maxScoreIndex;
 
-    private Vector3 playerPosition_;
-    public float distanceToPlayer = 2f;
 
     private void Awake()
     {
@@ -165,9 +163,6 @@ public class JammoBehavior : MonoBehaviour
 
     private void Update()
     {
-        Vector3 playerForward = playerPosition.forward;
-        playerPosition_ = playerPosition.position + playerForward * distanceToPlayer;
-
         // Here's the State Machine, where given its current state, the agent will act accordingly
         switch (state)
         {
@@ -176,8 +171,8 @@ public class JammoBehavior : MonoBehaviour
                 break;
 
             case State.Hello:
-                agent.SetDestination(playerPosition_);
-                if (Vector3.Distance(transform.position, playerPosition_) < reachedPositionDistance)
+                agent.SetDestination(playerPosition.position);
+                if (Vector3.Distance(transform.position, playerPosition.position) < reachedPositionDistance)
                 {
                     RotateTo();
                     anim.SetBool("hello", true);
@@ -186,8 +181,8 @@ public class JammoBehavior : MonoBehaviour
                 break;
 
             case State.Happy:
-                agent.SetDestination(playerPosition_);
-                if (Vector3.Distance(transform.position, playerPosition_) < reachedPositionDistance)
+                agent.SetDestination(playerPosition.position);
+                if (Vector3.Distance(transform.position, playerPosition.position) < reachedPositionDistance)
                 {
                     RotateTo();
                     anim.SetBool("happy", true);
@@ -196,8 +191,8 @@ public class JammoBehavior : MonoBehaviour
                 break;
 
             case State.Puzzled:
-                agent.SetDestination(playerPosition_);
-                if (Vector3.Distance(transform.position, playerPosition_) < reachedPositionDistance)
+                agent.SetDestination(playerPosition.position);
+                if (Vector3.Distance(transform.position, playerPosition.position) < reachedPositionDistance)
                 {
                     RotateTo();
                     anim.SetBool("puzzled", true);
@@ -225,8 +220,8 @@ public class JammoBehavior : MonoBehaviour
                 break;
 
             case State.BringObjectToPlayer:
-                agent.SetDestination(playerPosition_);
-                if (Vector3.Distance(transform.position, playerPosition_) < reachedObjectPositionDistance)
+                agent.SetDestination(playerPosition.transform.position);
+                if (Vector3.Distance(transform.position, playerPosition.transform.position) < reachedObjectPositionDistance)
                 {
                     Drop(goalObject);
                     state = State.Idle;
