@@ -22,11 +22,10 @@ To clone this repo, use this command :
 
 ```
  $ cd ~
- $ git clone git@github.com:wennnny/Sentis-unity.git
+ $ git clone git@github.com:ARG-NCTU/sentis-unity.git
 ```
 
 #### Download assets
-[Environment 3DModel](http://gofile.me/773h8/Y2wRIsbiG)
 [Sentence Similarity model](http://gofile.me/773h8/5aZTBdf73)
 
 >[!NOTE]
@@ -38,7 +37,7 @@ To open on Unity :
 
 1. Open UnityHub APP
 2. Press "Open project"
-3. Enter the Sentis-unity folder
+3. Enter the sentis-unity folder
 
 >[!NOTE]
 >You can download Unity [here](https://unity.com/cn/download)
@@ -50,21 +49,14 @@ To open on Unity :
 
 # How to play
 
-#### Game story
-There was a tourist who was lost in the mountains, you play a rescue dog, you should help people to find their friend...
-
-#### Control
-WASD to control direction  
-space to jump  
-R to stand up  
-E to take something  
-F to give something  
+You can text some order in UI, then Jammy will do something unexpected.
 
 # Resources 
 
 1. [Original Tutorial repo](https://thomassimonini.medium.com/building-a-smart-robot-ai-using-hugging-face-and-unity-a78724810545)
 
 2. [unity sentis plugin](https://unity.com/cn/products/sentis)
+
 3. [sharp-transformers](https://github.com/huggingface/sharp-transformers.git)
 
 
