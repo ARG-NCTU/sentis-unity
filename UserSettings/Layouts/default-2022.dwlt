@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -516
     y: 53
     width: 321
@@ -38,13 +39,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+=======
+>>>>>>> dde617d9224ca24e3db31a8bc68c23d44702ae0e
     x: -1920
     y: -320
     width: 1920
     height: 997
   m_ShowMode: 4
+<<<<<<< HEAD
   m_Title: Project
   m_RootView: {fileID: 5}
+=======
+  m_Title: Console
+  m_RootView: {fileID: 3}
+>>>>>>> dde617d9224ca24e3db31a8bc68c23d44702ae0e
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
@@ -106,14 +114,42 @@ MonoBehaviour:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 12060, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: GameView
+  m_EditorClassIdentifier: 
+  m_Children: []
+  m_Position:
+    serializedVersion: 2
+    x: 0
+    y: 30
+    width: 1920
+    height: 947
+  m_MinSize: {x: 200, y: 223}
+  m_MaxSize: {x: 4000, y: 4023}
+  m_ActualView: {fileID: 6}
+--- !u!114 &3
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12008, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Children:
+<<<<<<< HEAD
   - {fileID: 6}
   - {fileID: 8}
   - {fileID: 7}
+=======
+  - {fileID: 4}
+  - {fileID: 2}
+  - {fileID: 5}
+>>>>>>> dde617d9224ca24e3db31a8bc68c23d44702ae0e
   m_Position:
     serializedVersion: 2
     x: 0
@@ -126,7 +162,11 @@ MonoBehaviour:
   m_TopViewHeight: 30
   m_UseBottomView: 1
   m_BottomViewHeight: 20
+<<<<<<< HEAD
 --- !u!114 &6
+=======
+--- !u!114 &4
+>>>>>>> dde617d9224ca24e3db31a8bc68c23d44702ae0e
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,7 +188,11 @@ MonoBehaviour:
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
   m_LastLoadedLayoutName: 
+<<<<<<< HEAD
 --- !u!114 &7
+=======
+--- !u!114 &5
+>>>>>>> dde617d9224ca24e3db31a8bc68c23d44702ae0e
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -169,6 +213,7 @@ MonoBehaviour:
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
+<<<<<<< HEAD
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -388,6 +433,9 @@ MonoBehaviour:
     m_SaveData: []
     m_OverlaysVisible: 1
 --- !u!114 &16
+=======
+--- !u!114 &6
+>>>>>>> dde617d9224ca24e3db31a8bc68c23d44702ae0e
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -407,10 +455,17 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
     x: -1546
     y: -290
     width: 1020
     height: 640
+=======
+    x: -1920
+    y: -290
+    width: 1920
+    height: 928
+>>>>>>> dde617d9224ca24e3db31a8bc68c23d44702ae0e
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -454,7 +509,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -463,16 +518,24 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 1020
       height: 619
     m_Scale: {x: 0.265625, y: 0.265625}
     m_Translation: {x: 510, y: 309.5}
+=======
+      width: 1920
+      height: 907
+    m_Scale: {x: 0.41990742, y: 0.41990742}
+    m_Translation: {x: 960, y: 453.5}
+>>>>>>> dde617d9224ca24e3db31a8bc68c23d44702ae0e
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -1920
       y: -1165.1765
       width: 3840
@@ -480,11 +543,21 @@ MonoBehaviour:
     m_MinimalGUI: 1
   m_defaultScale: 0.265625
   m_LastWindowPixelSize: {x: 1020, y: 640}
+=======
+      x: -2286.2183
+      y: -1080
+      width: 4572.4365
+      height: 2160
+    m_MinimalGUI: 1
+  m_defaultScale: 0.41990742
+  m_LastWindowPixelSize: {x: 1920, y: 928}
+>>>>>>> dde617d9224ca24e3db31a8bc68c23d44702ae0e
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
+<<<<<<< HEAD
 --- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -2153,3 +2226,5 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
+=======
+>>>>>>> dde617d9224ca24e3db31a8bc68c23d44702ae0e
